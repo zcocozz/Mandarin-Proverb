@@ -30,16 +30,16 @@ Note: to be updated with the WISDOM dataset.
 
 If you find our work helpful, please cite our paper :)!
 ```bibtex
-@InProceedings{zhao-EtAl:2025:LM4DH,
-  author    = {Zhao, Xiaojing  and  Xu, Han  and  Song, Huacheng  and  Chersoni, Emmanuele  and  Huang, Chu-Ren},
-  title     = {Can LLMs Help Sun Wukong in his Journey to the West? A Case Study of Language Models in Video Game Localization},
-  booktitle      = {Proceedings of the First on Natural Language Processing and Language Models for Digital Humanities},
+@InProceedings{zhao-EtAl:2026:latell,
+  author    = {Zhao, Xiaojing  and  Lamsiyah, Salima  and  Chersoni, Emmanuele  and  Xu, Han},
+  title     = {Benchmarking Large Language Models on Mandarin Proverb Explanation and Contextual Matching},
+  booktitle      = {Proceedings of the First International Conference on Language Technologies for Low-resource Languages (LaTeLL 2026)},
   month          = {September},
-  year           = {2025},
-  address        = {Varna, Bulgaria},
-  publisher      = {INCOMA Ltd., Shoumen, Bulgaria},
-  pages     = {164--173},
-  abstract  = {Large language models (LLMs) have demonstrated increasing proficiency in general-purpose translation, yet their effectiveness in creative domains such as game localization remains underexplored. This study focuses on the role of LLMs in game localization from both linguistic quality and sociocultural adequacy through a case study of the video game Black Myth: Wukong. Results indicate that LLMs demonstrate adequate competence in accuracy and fluency, achieving performance comparable to human translators. However, limitations remain in the literal translation of culture-specific terms and offensive language. Human oversight is required to ensure nuanced cultural authenticity and sensitivity. Insights from human evaluations also suggest that current automatic metrics and the Multidimensional Quality Metrics framework may be inadequate for evaluating creative translation. Finally, varying human preferences in localization pose a learning ambiguity for LLMs to perform optimal translation strategies. The findings highlight the potential and shortcomings of LLMs to serve as collaborative tools in game localization workflows. Data are available at https://github.com/zcocozz/wukong-localization.},
-  url       = {https://aclanthology.org/2025.lm4dh-1.16}
+  year           = {2026},
+  address        = {Fes, Morocco},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {150--160},
+  abstract  = {Mandarin proverbs condense historical allusions, figurative imagery, and conventionalized pragmatic functions into short expressions, making them a challenging test of culturally grounded language understanding. We evaluate four large language models (LLMs) on the Mandarin subset of the WISDOM dataset through two complementary tasks under zero-shot and few-shot prompting: situation-to-proverb selection, assessed by accuracy, and bilingual proverb explanation, assessed with automatic metrics and human judgments of semantic correctness, cultural faithfulness, clarity, and learner usefulness. The results reveal a clear gap between recognition and explanation. Models achieve high selection accuracy, with GPT-5.4 and DeepSeek-V4-Flash above 98\%. Yet, human evaluation shows that fluent explanations often fail to preserve culturally conventionalized meanings, particularly for proverbs that rest on historical allusions, and are correspondingly less useful for learners. Few-shot demonstrations benefit some weaker models in open-ended explanation but do not consistently help stronger ones. These findings suggest that selection accuracy alone does not capture proverb understanding, and that Mandarin proverbs remain a demanding task for evaluating how LLMs handle figurative and culturally embedded language.},
+  url       = {https://aclanthology.org/2026.latell-1.17}
 }
 ```
